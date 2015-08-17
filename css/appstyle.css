@@ -1,0 +1,25 @@
+.tile-grid .tile-title {
+	margin: 0 0 3px 0;
+}
+
+.tile-grid .tile-content {
+	width:100%;
+}
+
+.tile-grid .media-badge .media-badge-container {
+	font-weight: 300;
+	color: #ec7b65;
+}
+
+.list-group .international {
+	padding-top: 30px;
+}
+
+.list-group .list-group-item {
+	border-bottom: none;
+	padding-bottom: 5px;
+}
+
+.list-group .list-group-item .fa {
+	padding-top: 2px;
+}
