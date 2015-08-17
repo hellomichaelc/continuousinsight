@@ -21,20 +21,24 @@ function toggle_visibility(id) {
 //-->
 </script>
 
-<ul class="tile-grid">
-<li class="row">
-<div class="col-xs-12 tile-media-top tile">
-<div class="tile-content">
-<h2 class="tile-title text-x-large text-weaker">92</h2>
-<p class="tile-value text-muted text-normalminus">Unique customers in this business unit</p>
-</div>
+<ul class="tile-grid">  
+  <li class="row">
+     <div class="col-xs-12 tile-media-top tile">  
+       <div>
+           <h2 class="tile-title text-x-large text-weaker">92</h2>
+           <p class="tile-value text-info text-normal line-loose">Unique customers in this business unit</p>
+           <div class="customer-percentage">                   
+           <p class="tile-value text-muted text-small"><span class="text-small">16%</span> of customers are international</p>
+           </div>
+       </div>
+   </div>
 </li>
+
 <li class="row">
     <div class="col-xs-6 tile-media-top tile">
     <div class="tile-content">
-    <div class="tile-media">
-       <div class="media-badge media-badge-default-inverse img-circle">
-       <span class="calls-open media-badge-container text-danger text-larger">806</span>
+       <div class="tile-content">
+       <span class="calls-open text-danger text-large">806</span>
        </div>
     </div>
 <p class="tile-value text-muted text-normalminus">Calls open right now</p>
@@ -56,47 +60,33 @@ function toggle_visibility(id) {
     <p class="tile-value text-muted text-small">Calls closed this month</p>
 </div>
 </li>
-</ul>
 
-<div class="ls-compoent">
-    <div class="list-group media-list-group">
-      <div class="international list-group-item unselectable">
-        <div class="media-badge media-badge-sm media-badge-info img-circle pull-left">
-          <span class="media-badge-container">
-          <i class="fa fa-map-marker fa-inverse"></i>
-          </span>
+<div class="row">
+    <div class="col-xs-12 tile">
+      <div class="tile-media">
+        <div class="media-badge media-badge-default-inverse img-circle">
+        <span class="number-existing-customers media-badge-container text-larger">44</span>
         </div>
-        <div class="media-content">
-          <h4 class="line-tighter text-x-large text-weaker">16%</h4>
-          <h5 class="text-muted">of customers are international (outside UK)</h5>
-        </div>
-      </div>
-      <div class="list-group media-list-group">
-        <div class="list-group-item unselectable">
-          <div class="media-badge media-badge-sm media-badge-info img-circle pull-left">
-            <span class="media-badge-container">
-            <i class="fa fa-shopping-cart fa-inverse"></i>
-            </span>
-          </div>
-          <div class="media-content">
-            <h4 class="line-tighter text-x-large text-weaker">44</h4>
-            <h5 class="text-muted">existing customers placed orders this year</h5>
-          </div>
-        </div>
-        <div class="list-group media-list-group">
-          <div class="list-group-item unselectable">
-            <div class="media-badge media-badge-sm media-badge-info img-circle pull-left">
-              <span class="media-badge-container">
-              <i class="fa fa-briefcase fa-inverse"></i>
-              </span>
-            </div>
-            <div class="media-content">
-              <h4 class="line-tighter text-x-large text-weaker">2</h4>
-              <h5 class="text-muted">new customers this year</h5>
-            </div>
-          </div>
-
+    </div>
+     <div class="existing-customers tile-content">
+      <h2 class="tile-title text-normalminus text-muted">Existing customers placed orders this year</h2>
+     </div>
+    </div>
 </div>
+
+<div class="row">
+    <div class="col-xs-12 tile">
+      <div class="tile-media">
+        <div class="media-badge media-badge-default-inverse img-circle">
+        <span class="number-new-customers media-badge-container text-larger">2</span>
+        </div>
+    </div>
+     <div class="existing-customers tile-content">
+      <h2 class="tile-title text-normalminus text-muted">New customers this year</h2>
+     </div>
+    </div>
+</div>
+</ul>
 </div>
 
 <script src="js/causeway-livestax.min.js"></script>
