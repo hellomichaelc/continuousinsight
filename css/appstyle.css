@@ -1,18 +1,40 @@
-.tile-grid .tile-title {
-	margin: 0 0 3px 0;
-}
-
 .tile-grid .tile-content {
 	width:100%;
 }
 
-.tile-grid .media-badge .media-badge-container {
+.tile-grid .existing-customers {
+	width:58%;
+}
+
+.tile-grid .media-badge .number-existing-customers {
+	font-weight: 300;
+	color: #24b499;
+}
+
+.tile-grid .media-badge .number-new-customers {
 	font-weight: 300;
 	color: #ec7b65;
 }
 
-.list-group .international {
-	padding-top: 30px;
+.tile-grid .customers {
+	border-bottom: none;
+	padding-bottom: 20px;
+}
+
+.tile-grid .customer-percentage {
+	border-bottom: none;
+	padding-top: 10px;
+	padding-bottom: 0px;
+}
+
+.tile-grid .international {
+	border-top: none;
+	padding-bottom: 15px;
+	padding-top: 0px;
+}
+
+.tile-grid .tile-title {
+	margin: 0 0 3px 0;
 }
 
 .list-group .list-group-item {
